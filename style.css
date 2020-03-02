@@ -1,0 +1,142 @@
+/*--------------------------Normalization---------------------------*/
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+}
+/*--------------------------Normalization---------------------------*/
+
+
+/*------------------------------NavBar------------------------------*/
+#logo{
+    text-decoration: none;
+    color: #707070;
+    font-weight: bold
+}
+.navigation a{
+    color: #707070;
+    font-weight: bold;
+}
+.header{
+    background-color: cadetblue;
+}
+/*------------------------------NavBar------------------------------*/
+
+
+/*------------------------------Banner------------------------------*/
+.banner{
+    background-color: black;
+}
+.row{
+    padding: 10px 20px;
+}
+.banner,.feature p{
+    color: #707070;
+}
+
+.banner h1{
+    color: #1F1F1F;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+.banner a{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+.carousel-indicators .active {
+    background-color: orange;
+    max-width: 45px;
+}
+/*------------------------------Banner------------------------------*/
+
+
+/*-----------------------------Feature------------------------------*/
+.feature{
+    margin: 30px 0px;
+    padding-bottom: 70px;
+}
+.intro a{
+    color: #ffce1a;
+    padding: 25px;
+    text-decoration: none;
+}
+.feature h5{
+    color: #1F1F1F;
+    margin: 15px 10px;
+    font-weight: bold;
+}
+.feature h2{
+    color: #1F1F1F;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 15px;
+    margin: 20px 0px;
+    padding: 15px 10px 10px;
+    max-height: 685px;
+    max-width: 450px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+.card button{
+    padding: 7px 10px;
+    background-color: #000000;
+    border-radius: 5px;
+    border: none;
+}
+.card button:hover{
+    background-color:  #ffce1a;
+}
+.card a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+}
+.card img{
+    max-height: 280px;
+    max-width: 270px;
+}
+.card-deck{
+    margin-bottom: 70px
+}
+
+
+/*----------------------------- Feature------------------------------*/
+/*-----------------------------Catagory------------------------------*/
+.collumn{
+    flex-direction: column
+}
+#headline{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#br-orange{
+    height: 10px;
+    width: 135px;
+    display: block;
+    margin: 10px auto 30px;
+    background-image: linear-gradient(45deg, #ff9c35, #ffd019);
+    border-radius: 5px;
+}
+.catagory h2{
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0px;
+}
+.flower,.tree,.tub{
+    padding: 30px 50px 0px;
+    box-shadow: 0 0 10px lightgrey;
+    margin: 25px 20px 20px 0px;
+    border-radius: 32px;
+}
+
+.pale-order{
+    width: 100%;
+}
+/*-----------------------------Catagory------------------------------*/
